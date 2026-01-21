@@ -878,17 +878,17 @@ Weihnachtszeit versüßen.
 
         //hier wird das datum abgefragt
         heute = new Date();
-        /*
+        
         aktuellesJahr = heute.getFullYear();
         aktuellerMonat = heute.getMonth();
         aktuellerTag = heute.getDate();
-        */
+    
 
-        
+        /*
         aktuellesJahr = 2026;
         aktuellerMonat = 11;
         aktuellerTag = 24;
-        
+        */
 
         const tuerNummer = parseInt(tuerchen.id.split('_')[1]);
 
@@ -989,5 +989,6 @@ Weihnachtszeit versüßen.
         localStorage.removeItem('krimi_adventskalender_geoeffnet');
         location.reload();
     });
+
 
 });
